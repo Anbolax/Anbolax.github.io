@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Suez+One|Yeseva+One');
+body, html {
+	width: 100%;
+	height: 100%
+}
+body {
+	background-color: #f6f6f6;
+	position: relative;
+}
+
+
+#log {
+	margin-left: 100px;
+}
+#logo {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+#ISAU {
+	width: 270px;
+	line-height: 35px;
+	color: white;
+	font-family: 'Yeseva One', cursive;
+	font-size: 1.4em;
+}
+
+#menu {
+	margin-top: 20px;
+	margin-right: 100px;
+	font-size: 2.3em;
+}
+#Rez
+{
+	text-align: center;
+	margin-top: 8%;
+	text-anchor: end;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+p,h1,h2 {
+    line-height: 2;
+   }
+
+.Osn {
+	text-decoration: underline;
+}
+
+span.indent {
+	 margin-left: 5%;
+}
+
+span.indent2 {
+	margin-left: 12%;
+}
+
+#thanks {
+	font-style: italic;
+}
+
