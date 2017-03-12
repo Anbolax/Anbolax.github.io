@@ -15,6 +15,9 @@
 </head>
 
 <body>
+	<div class="loaderArea">
+	   <div class="loader"></div>
+	</div>
 	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -44,7 +47,7 @@
 		</div>
 	</div>
 
-
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=l-J9S8vBlCEDT_apLKUQi75uAHojj5Or&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
 	
 
 	<!-- jQuery -->
@@ -53,6 +56,14 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+<script>
+  $(window).on('load', function () {
+    $preloader = $('.loaderArea'),
+      $loader = $preloader.find('.loader');
+    $loader.fadeOut();
+    $preloader.delay(850).fadeOut('slow');
+  });
+</script>
 </body>
 
 </html>
