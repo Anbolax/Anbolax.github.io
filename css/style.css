@@ -119,7 +119,7 @@ span.indent2 {
 
 }
 
-@media(max-device-width: 721px)
+@media(max-device-width: 721px), (max-width: 714px)
 {
   #ISAU {
     display: none;
